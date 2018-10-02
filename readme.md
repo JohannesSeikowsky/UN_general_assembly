@@ -1,6 +1,7 @@
-Quick and dirty script to download each country's speech at the General Assembly meeting of the United Nations 2018
+#### UN_general_assembly
+Quick script to download each country's speech at the General Assembly meeting of the United Nations 2018
 
-#### How to use
+#### Use
 `git clone https://github.com/JohannesSeikowsky/UN_general_assembly.git`
 
 `cd un_general_assembly`
@@ -10,6 +11,6 @@ Quick and dirty script to download each country's speech at the General Assembly
 `python3 main.py`
 
 #### Necessary Dependencies
-BeautifulSoup
+`pip install requests`
 
-Requests
+`pip install bs4`
