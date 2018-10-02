@@ -7,7 +7,7 @@
 
 `python3 main.py`
 
-#### Install Dependencies
-`pip install requests`
+#### Dependencies
+`pip3 install requests`
 
-`pip install bs4`
+`pip3 install beautifulsoup4`
