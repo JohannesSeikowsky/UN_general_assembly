@@ -1,6 +1,3 @@
-#### UN_general_assembly
-Script to download each country's speech at the General Assembly meeting of the United Nations 2018
-
 #### Use
 `git clone https://github.com/JohannesSeikowsky/UN_general_assembly.git`
 
@@ -10,7 +7,7 @@ Script to download each country's speech at the General Assembly meeting of the 
 
 `python3 main.py`
 
-#### Dependencies
+#### Install Dependencies
 `pip install requests`
 
 `pip install bs4`
