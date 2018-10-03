@@ -3,8 +3,8 @@ import os, subprocess
 
 files = os.listdir("pdfs/")
 
-for pdf_name in files:
-	txt_name = pdf_name.replace("pdf", "txt")	
-	call_string = 'pdftotext pdfs/' + pdf_name + ' txts/' + txt_name
+for pdf in files:
+	txt = pdf.replace("pdf", "txt")	
+	call_string = 'pdftotext pdfs/' + pdf + ' txts/' + txt
 	subprocess.call([call_string], shell=True)
 	print("1 file converted.")
