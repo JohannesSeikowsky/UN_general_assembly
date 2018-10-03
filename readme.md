@@ -11,3 +11,8 @@
 `pip3 install requests`
 
 `pip3 install beautifulsoup4`
+
+#### Converting PDFs
+I added a script to convert the pdfs that were downloaded into the pdfs directory
+to text files. To use it, create a directory named txt in the project direcory.
+Then run the "convert_pdfs_to_txts.py" script with python3.
